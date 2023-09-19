@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+}
+
+/* declaration de variables coleurs*/
+/* header */
+nav {
+  background-color: #061339;
+  color: white;
+}
+
+/* main */
+.tittle {
+  background-image: url("../img/background.jpg");
+  color: white;
+}
+
+/* formulaire et slider */
+.tittre2 {
+  color: #2f4073;
+}
+
+main {
+  background-color: #f4f2f2;
+}
+
+.btn-envoyer {
+  background-color: rgb(20, 187, 20);
+  color: white;
+}
+
+/* erreur formulaire */
+.red-border {
+  border: 3px solid red;
+}
+
+/* nos chats a adopoter */
+img {
+  background-color: #7885a5;
+  transition: background-color 0.3s;
+}
+img:hover {
+  background-color: #061339;
+}
+
+.nosChats {
+  background-color: #dedede;
+}
+
+/* footer */
+footer {
+  background-color: #061339;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

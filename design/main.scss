@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  font-family: "Merienda", cursive;
+}
+/* declaration de variables coleurs*/
+$barcolor: #061339;
+$letterwhite: white;
+$premierBloc: #f4f2f2;
+$footer: #061339;
+$tetechatdefault: #7885a5;
+$tetechatHover: #061339;
+$background3: #dedede;
+$btnEnvoyer: rgb(20, 187, 20);
+$tittres: #2f4073;
+/* header */
+nav {
+  background-color: $barcolor;
+  color: $letterwhite;
+}
+/* main */
+.tittle {
+  background-image: url("../img/background.jpg");
+  color: $letterwhite;
+}
+/* formulaire et slider */
+.tittre2 {
+  color: $tittres;
+}
+main {
+  background-color: $premierBloc;
+}
+.btn-envoyer {
+  background-color: $btnEnvoyer;
+  color: $letterwhite;
+}
+/* erreur formulaire */
+.red-border {
+  border: 3px solid red;
+}
+/* nos chats a adopoter */
+img {
+  background-color: $tetechatdefault;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: $tetechatHover;
+  }
+}
+.nosChats {
+  background-color: $background3;
+}
+/* footer */
+footer {
+  background-color: $footer;
+  color: $letterwhite;
+}
